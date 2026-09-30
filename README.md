@@ -1,4 +1,4 @@
-# 📄 AI Resume Analyzer
+# 📄 Resume Analyzer
 
 An easy-to-use **Streamlit-based AI Resume Analyzer** that evaluates a resume, identifies skills, highlights strengths and weaknesses, and provides actionable improvement suggestions. It can also compare a resume against a specific job description.
 
@@ -31,13 +31,13 @@ An easy-to-use **Streamlit-based AI Resume Analyzer** that evaluates a resume, i
 ## 📁 Project Structure
 
 ```text
-AI-Resume-Analyzer/
+Resume-Analyzer/
 │
 ├── app.py
 ├── resume_parser.py
 ├── analyzer.py
 ├── offline_analyzer.py
-├── requirements-offline.txt
+├── requirements.txt
 └── README.md
 ```
 
@@ -81,10 +81,10 @@ source venv/bin/activate
 ### 3. Install dependencies
 
 ```bash
-pip install -r requirements-offline.txt
+pip install -r requirements.txt
 ```
 
-If you do not have a `requirements-offline.txt`, install the main packages:
+If you do not have a `requirements.txt`, install the main packages:
 
 ```bash
 pip install streamlit plotly
